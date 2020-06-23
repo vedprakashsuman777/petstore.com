@@ -231,6 +231,7 @@ html, body{ height: 100%; }
      background-repeat: no-repeat;
      background-position: center;
      margin: -80px 0 0 -160px;
+     transform: scale(0.5);
  }
 
 
@@ -262,7 +263,7 @@ html, body{ height: 100%; }
 }
 #header{}
 .logo{
-	float:left;
+    float:left;
 }
 .header-block-top{
 	position: absolute;
