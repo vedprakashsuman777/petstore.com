@@ -68,7 +68,11 @@ body{
 	color:#686868;
 	font-size:14px;
 	font-family: 'Roboto', sans-serif;
-	line-height:1.80857;
+    line-height:1.80857;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+ display: none;
 }
 
 a {

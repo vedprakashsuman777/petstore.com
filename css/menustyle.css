@@ -43,8 +43,13 @@
   cursor: pointer;
 }
 .work .category-buttons a.active {
-  color: #373B3D;
-  border: 1px solid #373B3D;
+  color: #fff;
+  border: 1px solid #F04900;
+}
+.grid .card > img{
+ border-radius:50px;
+ padding: 1px;
+ transform: scale(0.9);
 }
 .work .grid {
   margin-top: 40px;
@@ -81,11 +86,12 @@
   opacity: 1;
 }
 .work .card {
-  background: #fff;
+  background: rgb(255, 253, 253);
   display: block;
   text-decoration: none;
   color: #2b2b2b;
   width: 32%;
+  height: 100px;
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 5px rgba(0, 0, 0, 0.15);
   transform-origin: center center;
   -webkit-transform: translateZ(0);
@@ -97,6 +103,9 @@
   -ms-transform: scale(0);
   transform: scale(0);
   opacity: 0;
+  border-radius: 50px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 @media (max-width: 700px) {
   .work .card {
@@ -113,8 +122,14 @@
   width: 100%;
 }
 .work .card .title {
-  padding: 10px;
-  color: #2b2b2b;
+  padding: 20px;
+  color: #fff;
+  font-size: medium;
+  font-size: 'nautilus_pompiliusregular';
+  border: 5px solid #070707;
+  background-color: #070707;
+  border-bottom-right-radius:  20px;
+  border-bottom-left-radius:  20px;
 }
 .work .guide {
   width: 32%;
