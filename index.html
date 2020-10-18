@@ -1,890 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lazzawaab Pizza</title>
+<!-- 
+Lazzawaab Pizza Template
+http://www.templatemo.com/tm-466-cafe-house
+-->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/templatemo-style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
 
-    <!-- Basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0">
-
-    <!-- Site Metas -->
-    <title>Pet Shop</title>
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/menustyle.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- color -->
-    <link id="changeable-colors" rel="stylesheet" href="css/colors/orange.css" />
-
-    <!-- Modernizer -->
-    <script src="js/modernizer.js"></script>
-
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-</head>
-
-<body>
-    <div id="loader">
-        <div id="status"></div>
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
     </div>
-    <div id="site-header">
-        <header id="header" class="header-block-top">
-            <div class="container">
-                <div class="row">
-                    <div class="main-menu">
-                        <!-- navbar -->
-                        <nav class="navbar navbar-default" id="mainNav">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <div class="logo">
-                                    <a class="navbar-brand js-scroll-trigger logo-header" href="#">
-                                        <img src="images/logo.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <div id="navbar" class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li class="active"><a href="#banner">Home</a></li>
-                                    <li><a href="#about">About us</a></li>
-                                    <li><a href="#menu">Store</a></li>
-                                    <li><a href="#our_team">Team</a></li>
-                                    <li><a href="#gallery">Stories</a></li>
-                                    <!--<li><a href="#blog">Blog</a></li>
-                                    <li><a href="#pricing">pricing</a></li>
-                                    <li><a href="#reservation">Reservaion</a></li>-->
-                                    <li><a href="#footer">Contact us</a></li>
-                                </ul>
-                            </div>
-                            <!-- end nav-collapse -->
-                        </nav>
-                        <!-- end navbar -->
-                    </div>
-                </div>
-                <!-- end row -->
+    <!-- End Preloader -->
+    <div class="tm-top-header">
+      <div class="container">
+        <div class="row">
+          <div class="tm-top-header-inner">
+            <div class="tm-logo-container">
+              <img src="img/logo.png" alt="Logo" class="tm-site-logo" width="100px" height="100px" style="position:relative;">
+                <h1 class="tm-site-name tm-handwriting-font" style="font-size:60px;float: right;">Lazzawaab Pizza</h1>
             </div>
-            <!-- end container-fluid -->
-        </header>
-        <!-- end header -->
-    </div>
-	<!-- end site-header -->
-	
-    <div id="banner" class="banner full-screen-mode parallax">
-        <div class="container pr">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <div class="banner-static">
-                    <div class="banner-text">
-                        <div class="banner-cell">
-                            <h1>Dinner with us  <span class="typer" id="some-id" data-delay="200" data-delim=":" data-words="Friends:Family:Officemates" data-colors="red"></span><span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span></h1>
-                            <h2>Accidental appearances </h2>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod</p>
-                            <div class="book-btn">
-                                <a href="#footer" class="table-btn hvr-underline-from-center">Book my Pet</a>
-                            </div>
-                            <a href="#about">
-                                <div class="mouse"></div>
-                            </a>
-                        </div>
-                        <!-- end banner-cell -->
-                    </div>
-                    <!-- end banner-text -->
-                </div>
-                <!-- end banner-static -->
+            <div class="mobile-menu-icon">
+              <i class="fa fa-bars"></i>
             </div>
-            <!-- end col -->
-        </div>
-        <!-- end container -->
-    </div>
-    <!-- end banner -->
-
-    <div id="about" class="about-main pad-top-100 pad-bottom-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <h2 class="block-title"> About Us </h2>
-                        <h3>IT STARTED, QUITE SIMPLY, LIKE THIS...</h3>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco. </p>
-
-                        <p> Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, Aenean commodo ligula eget dolor penatibu set magnis is parturient montes, nascetur ridiculus mus. quam felisorat, ultricies nec, pellentesque eu, pretium quis, sem. quat massa quis enim. Donec vitae sapien ut libero venenatis fauci Nullam quis ante. Etiam sit amet rci eget eros. </p>
-
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia, nostrud exercitation ullamco. </p>
-                    </div>
-                </div>
-                <!-- end col -->
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <div class="about-images">
-                            <img class="about-main" src="images/about-main.jpg" alt="About Main Image">
-                            <img class="about-inset" src="images/about-inset.jpg" alt="About Inset Image">
-                        </div>
-                    </div>
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
+            <nav class="tm-nav">
+              <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=917077655199&text=Hi Lazzawaab Pizza, I want to buy pizza">Contact Us</a></li>
+              </ul>
+            </nav>
+          </div>           
+        </div>    
+      </div>
     </div>
 
-    <div class="special-menu pad-top-100 parallax">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <h2 class="block-title color-white text-center"> Available now at Our Store </h2>
-                        <h5 class="title-caption text-center"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusm incididunt ut labore et dolore magna aliqua. Ut enim ad minim venia,nostrud exercitation ullamco. </h5>
-                    </div>
-                    <div class="special-box">
-                        <div id="owl-demo">
-                            <div class="item item-type-zoom">
-                                <a href="#" class="item-hover">
-                                    <div class="item-info">
-                                        <div class="headline">
-                                            SALMON STEAK
-                                            <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="item-img">
-                                    <img src="images/special-menu-1.jpg" alt="sp-menu">
-                                </div>
-                            </div>
-                            <div class="item item-type-zoom">
-                                <a href="#" class="item-hover">
-                                    <div class="item-info">
-                                        <div class="headline">
-                                            ITALIAN PIZZA
-                                            <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="item-img">
-                                    <img src="images/special-menu-2.jpg" alt="sp-menu">
-                                </div>
-                            </div>
-                            <div class="item item-type-zoom">
-                                <a href="#" class="item-hover">
-                                    <div class="item-info">
-                                        <div class="headline">
-                                            VEG. ROLL
-                                            <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="item-img">
-                                    <img src="images/special-menu-3.jpg" alt="sp-menu">
-                                </div>
-                            </div>
-                            <div class="item item-type-zoom">
-                                <a href="#" class="item-hover">
-                                    <div class="item-info">
-                                        <div class="headline">
-                                            SALMON STEAK
-                                            <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="item-img">
-                                    <img src="images/special-menu-1.jpg" alt="sp-menu">
-                                </div>
-                            </div>
-                            <div class="item item-type-zoom">
-                                <a href="#" class="item-hover">
-                                    <div class="item-info">
-                                        <div class="headline">
-                                            VEG. ROLL
-                                            <div class="line"></div>
-                                            <div class="dit-line">Lorem ipsum dolor sit amet, consectetur adip aliqua. Ut enim ad minim venia.</div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="item-img">
-                                    <img src="images/special-menu-2.jpg" alt="sp-menu">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end special-box -->
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- end row -->
+    <section class="tm-welcome-section">
+      <div class="container tm-position-relative">
+        <div class="tm-lights-container">
+          <img src="img/light.png" alt="Light" class="light light-1">
+          <img src="img/light.png" alt="Light" class="light light-2">
+          <img src="img/light.png" alt="Light" class="light light-3">  
+        </div>        
+        <div class="row tm-welcome-content">
+          <h2 class="white-text tm-handwriting-font tm-welcome-header"><img src="img/header-line.png" alt="Line" class="tm-header-line">&nbsp;Coming Soon&nbsp;&nbsp;<img src="img/header-line.png" alt="Line" class="tm-header-line"></h2>
+          <h2 class="gold-text tm-welcome-header-2">Lazzawaab Pizza</h2>
+          
+          <a href="https://api.whatsapp.com/send?phone=917077655199&text=Hi Lazzawaab Pizza, I want to buy pizza" class="tm-more-button tm-more-button-welcome">Contact Us</a>      
         </div>
-        <!-- end container -->
-    </div>
-    <!-- end special-menu -->
-
-    <div id="menu" class="menu-main pad-top-100 pad-bottom-100" style="background-color: black;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <h2 class="block-title text-center">
-						You can make them yours 	
-					</h2>
-                        <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-                     </div>
-                    <!-- partial:index.partial.html -->
-                    <div class="work">
-                        <div class="category-buttons">
-                        <a href="#" class="active all" data-group="all">All</a>
-                        <a href="#" data-group="Doberman">Doberman</a>
-                        <a href="#" data-group="German Shepherd">German Shepherd</a>
-                        <a href="#" data-group="Golden Retriver">Golden Retriver</a>
-                        <a href="#" data-group="Labrador Retriver">Labrador Retriver</a>
-                        <a href="#" data-group="Pomerian">Pomerian</a>
-                        <a href="#" data-group="Pug">Pug</a>
-                        <a href="#" data-group="Rottweiler">Rottweiler</a>
-                        </div>
-                    
-                        <div id="grid" class="grid">
-                            
-                            
-                            <a class="card"   data-groups="Doberman," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Doberman pup.">
-                                <img src="images/dogpics/dog (18).jpg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                    
-                            <a class="card"   data-groups="German Shepherd," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy German sephered pup.">
-                                <img src="images/dogpics/dog (21).jpg" />
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Golden Retriver," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Golden Retriver pup.">
-                                <img src="images/dogpics/dog (27).jpg"ht/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="German Shepherd," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy German sephered pup.">
-                                <img src="images/dogpics/images (3).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            
-                            <a class="card"   data-groups="Labrador Retriver," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Labrador Retriver pup.">
-                                <img src="images/dogpics/images (5).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Rottweiler," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Rottweiler pup.">
-                                <img src="images/dogpics/images (25).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Doberman," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Doberman pup.">
-                                <img src="images/dogpics/images (22).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Pug," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Pug pup.">
-                                <img src="images/dogpics/images (18).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Pomerian," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Pomerian pup.">
-                                <img src="images/dogpics/images (15).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="German Shepherd," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy German sephered pup.">
-                                <img src="images/dogpics/images (4).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Pug," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Pug pup.">
-                                <img src="images/dogpics/dog (34).jpg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Pomerian," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Pomerian pup.">
-                                <img src="images/dogpics/images (12).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Golden Retriver," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Golden Retriver pup.">
-                                <img src="images/dogpics/images (10).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-
-                            <a class="card"   data-groups="Rottweiler," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Rottweiler pup.">
-                                <img src="images/dogpics/dog (46).jpg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Golden Retriver," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Golden Retriver pup.">
-                                <img src="images/dogpics/images (9).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Labrador Retriver,"  href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Labrador Retriver pup.">
-                                <img src="images/dogpics/images (6).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Rottweiler," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Rottweiler pup.">
-                                <img src="images/dogpics/images (26).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="German Shepherd," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy German sephered pup.">
-                                <img src="images/dogpics/images (1).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Pug," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Pug pup.">
-                                <img src="images/dogpics/images (19).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="German Shepherd," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy German sephered pup.">
-                                <img src="images/dogpics/images (2).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Labrador Retriver,"  href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Labrador Retriver pup.">
-                                <img src="images/dogpics/labrador.jpg"/>
-                                <div class="title">Project Title</div>
-                            </a><a class="card"   data-groups="Labrador Retriver,"  href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Labrador Retriver pup.">
-                                <img src="images/dogpics/images (7).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Doberman," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Doberman pup.">
-                                <img src="images/dogpics/images (23).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Labrador Retriver,"  href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Labrador Retriver pup.">
-                                <img src="images/dogpics/images (8).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Doberman," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Doberman pup.">
-                                <img src="images/dogpics/images (21).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Pomerian," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Pomerian pup.">
-                                <img src="images/dogpics/images (13).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Pug," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Pug pup.">
-                                <img src="images/dogpics/images (16).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Rottweiler," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Rottweiler pup.">
-                                <img src="images/dogpics/images (24).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Golden Retriver," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Golden Retriver pup.">
-                                <img src="images/dogpics/golden.jpg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Rottweiler," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Rottweiler pup.">
-                                <img src="images/dogpics/images (27).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                           <a class="card"   data-groups="Pug,"  href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Pug pup.">
-                                <img src="images/dogpics/images (17).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Pomerian," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Pomerian pup.">
-                                <img src="images/dogpics/pom.jpg"/>
-                                <div class="title">Project Title</div>
-                            </a><a class="card"   data-groups="Pomerian," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Pomerian pup.">
-                                <img src="images/dogpics/images (14).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Doberman," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Doberman pup.">
-                                <img src="images/dogpics/images (20).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                            <a class="card"   data-groups="Golden Retriver," href="https://api.whatsapp.com/send?phone=917008910898&text=Hi,i want to buy Golden Retriver pup.">
-                                <img src="images/dogpics/images (11).jpeg"/>
-                                <div class="title">Project Title</div>
-                            </a>
-                        <div class="guide"></div>
-                        </div>
-                    </div>
-                    <!-- partial -->
-                        <script src='https://code.jquery.com/jquery-compat-git.js'></script><script  src="js/menuscript.js"></script>
-                    
-                    <!-- end tab-menu -->
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </div>
-    <!-- end menu -->
-
-    <div id="our_team" class="team-main pad-top-100 pad-bottom-100 parallax">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <h2 class="block-title text-center">
-						Our Team 	
-					</h2>
-                        <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-                    </div>
-                    <div class="team-box">
-
-                        <div class="row">
-                            <div class="col-md-4 col-sm-6">
-                                <div class="sf-team">
-                                    <div class="thumb">
-                                        <a href="#"><img src="images/staff-01.jpg" alt=""></a>
-                                    </div>
-                                    <div class="text-col">
-                                        <h3>John Doggett</h3>
-                                        <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
-                                        <ul class="team-social">
-                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end col -->
-                            <div class="col-md-4 col-sm-6">
-                                <div class="sf-team">
-                                    <div class="thumb">
-                                        <a href="#"><img src="images/staff-02.jpg" alt=""></a>
-                                    </div>
-                                    <div class="text-col">
-                                        <h3>Jeffrey Spender</h3>
-                                        <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
-                                        <ul class="team-social">
-                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end col -->
-                            <div class="col-md-4 col-sm-6">
-                                <div class="sf-team">
-                                    <div class="thumb">
-                                        <a href="#"><img src="images/staff-03.jpg" alt=""></a>
-                                    </div>
-                                    <div class="text-col">
-                                        <h3>Monica Reyes</h3>
-                                        <p>Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Aenean commodo ligula.</p>
-                                        <ul class="team-social">
-                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- end col -->
-                        </div>
-                        <!-- end row -->
-
-                    </div>
-                    <!-- end team-box -->
-
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </div>
-    <!-- end team-main -->
-
-    <div id="gallery" class="gallery-main pad-top-100 pad-bottom-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                        <h2 class="block-title text-center">
-						Our Stories	
-					</h2>
-                        <p class="title-caption text-center">There are many variations of passages of Lorem Ipsum available </p>
-                    </div>
-                    <div class="gal-container clearfix">
-                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
-                            <div class="box">
-                                <a href="#" data-toggle="modal" data-target="#1">
-                                    <img src="images/gallery_01.jpg" alt="" />
-                                </a>
-                                <div class="modal fade" id="1" tabindex="-1" role="dialog">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                            <div class="modal-body">
-                                                <img src="images/gallery_01.jpg" alt="" />
-                                            </div>
-                                            <div class="col-md-12 description">
-                                                <h4>This is the 1 one on my Gallery</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-                            <div class="box">
-                                <a href="#" data-toggle="modal" data-target="#2">
-                                    <img src="images/gallery_02.jpg" alt="" />
-                                </a>
-                                <div class="modal fade" id="2" tabindex="-1" role="dialog">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                            <div class="modal-body">
-                                                <img src="images/gallery_02.jpg" alt="" />
-                                            </div>
-                                            <div class="col-md-12 description">
-                                                <h4>This is the 2 one on my Gallery</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-                            <div class="box">
-                                <a href="#" data-toggle="modal" data-target="#3">
-                                    <img src="images/gallery_03.jpg" alt="" />
-                                </a>
-                                <div class="modal fade" id="3" tabindex="-1" role="dialog">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                            <div class="modal-body">
-                                                <img src="images/gallery_03.jpg" alt="" />
-                                            </div>
-                                            <div class="col-md-12 description">
-                                                <h4>This is the 3 one on my Gallery</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-                            <div class="box">
-                                <a href="#" data-toggle="modal" data-target="#4">
-                                    <img src="images/gallery_04.jpg" alt="" />
-                                </a>
-                                <div class="modal fade" id="4" tabindex="-1" role="dialog">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                            <div class="modal-body">
-                                                <img src="images/gallery_04.jpg" alt="" />
-                                            </div>
-                                            <div class="col-md-12 description">
-                                                <h4>This is the 4 one on my Gallery</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-                            <div class="box">
-                                <a href="#" data-toggle="modal" data-target="#5">
-                                    <img src="images/gallery_05.jpg" alt="" />
-                                </a>
-                                <div class="modal fade" id="5" tabindex="-1" role="dialog">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                            <div class="modal-body">
-                                                <img src="images/gallery_05.jpg" alt="" />
-                                            </div>
-                                            <div class="col-md-12 description">
-                                                <h4>This is the 5 one on my Gallery</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-                            <div class="box">
-                                <a href="#" data-toggle="modal" data-target="#9">
-                                    <img src="images/gallery_06.jpg" alt="" />
-                                </a>
-                                <div class="modal fade" id="9" tabindex="-1" role="dialog">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                            <div class="modal-body">
-                                                <img src="images/gallery_06.jpg" alt="" />
-                                            </div>
-                                            <div class="col-md-12 description">
-                                                <h4>This is the 6 one on my Gallery</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-8 col-sm-12 co-xs-12 gal-item">
-                            <div class="box">
-                                <a href="#" data-toggle="modal" data-target="#10">
-                                    <img src="images/gallery_07.jpg" alt="" />
-                                </a>
-                                <div class="modal fade" id="10" tabindex="-1" role="dialog">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                            <div class="modal-body">
-                                                <img src="images/gallery_07.jpg" alt="" />
-                                            </div>
-                                            <div class="col-md-12 description">
-                                                <h4>This is the 7 one on my Gallery</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-                            <div class="box">
-                                <a href="#" data-toggle="modal" data-target="#11">
-                                    <img src="images/gallery_08.jpg" alt="" />
-                                </a>
-                                <div class="modal fade" id="11" tabindex="-1" role="dialog">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                            <div class="modal-body">
-                                                <img src="images/gallery_08.jpg" alt="" />
-                                            </div>
-                                            <div class="col-md-12 description">
-                                                <h4>This is the 8 one on my Gallery</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-                            <div class="box">
-                                <a href="#" data-toggle="modal" data-target="#12">
-                                    <img src="images/gallery_09.jpg" alt="" />
-                                </a>
-                                <div class="modal fade" id="12" tabindex="-1" role="dialog">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                            <div class="modal-body">
-                                                <img src="images/gallery_09.jpg" alt="" />
-                                            </div>
-                                            <div class="col-md-12 description">
-                                                <h4>This is the 9 one on my Gallery</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
-                            <div class="box">
-                                <a href="#" data-toggle="modal" data-target="#13">
-                                    <img src="images/gallery_10.jpg" alt="" />
-                                </a>
-                                <div class="modal fade" id="13" tabindex="-1" role="dialog">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                                            <div class="modal-body">
-                                                <img src="images/gallery_10.jpg" alt="" />
-                                            </div>
-                                            <div class="col-md-12 description">
-                                                <h4>This is the 10 one on my Gallery</h4>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end gal-container -->
-                </div>
-                <!-- end col -->
-            </div>
-            <!-- end row -->
-        </div>
-        <!-- end container -->
-    </div>
-    <!-- end gallery-main -->
-
-
-    <div id="footer" class="footer-main">
-        <div class="footer-news pad-top-100 pad-bottom-70 parallax">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
-                            <h2 class="ft-title color-white text-center"> Newsletter </h2>
-                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                        </div>
-                <!--   <form>
-                            <input type="email" placeholder="Enter your e-mail id">
-                            <a href="#" class="orange-btn"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></a>
-                        </form> -->
-                    </div>
-                    <!-- end col -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-        </div>
-        <!-- end footer-news -->
-        <div class="footer-box pad-top-70">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-in-main">
-                        <div class="footer-logo">
-                            <div class="text-center">
-                                <img src="images/logo.png" alt="" />
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="footer-box-a">
-                                <h3>About Us</h3>
-                                <p>Aenean commodo ligula eget dolor aenean massa. Cum sociis nat penatibu set magnis dis parturient montes.</p>
-                                <ul class="socials-box footer-socials pull-left">
-                                    <li>
-                                        <a href="#">
-                                            <div class="social-circle-border"><i class="fa  fa-facebook"></i></div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="social-circle-border"><i class="fa fa-twitter"></i></div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="social-circle-border"><i class="fa fa-google-plus"></i></div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="social-circle-border"><i class="fa fa-pinterest"></i></div>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <div class="social-circle-border"><i class="fa fa-linkedin"></i></div>
-                                        </a>
-                                    </li>
-                                </ul>
-
-                            </div>
-                            <!-- end footer-box-a -->
-                        </div>
-                        <!-- end col -->
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="footer-box-b">
-                                <h3>New Menu</h3>
-                                <ul>
-                                    <li><a href="#">Italian Bomba Sandwich</a></li>
-                                    <li><a href="#">Double Dose of Pork Belly</a></li>
-                                    <li><a href="#">Spicy Thai Noodles</a></li>
-                                    <li><a href="#">Triple Truffle Trotters</a></li>
-                                </ul>
-                            </div>
-                            <!-- end footer-box-b -->
-                        </div>
-                        <!-- end col -->
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="footer-box-c">
-                                <h3>Contact Us</h3>
-                                <p>
-                                    <i class="fa fa-map-signs" aria-hidden="true"></i>
-                                    <span>6 E Esplanade, St Albans VIC 3021, Australia</span>
-                                </p>
-                                <p>
-                                    <i class="fa fa-mobile" aria-hidden="true"></i>
-                                    <span>
-									+91 80005 89080 
-								</span>
-                                </p>
-                                <p>
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <span><a href="#">support@Petfunday.com</a></span>
-                                </p>
-                            </div>
-                            <!-- end footer-box-c -->
-                        </div>
-                        <!-- end col -->
-                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                            <div class="footer-box-d">
-                                <h3>Opening Hours</h3>
-
-                                <ul>
-                                    <li>
-                                        <p>Monday - Thursday </p>
-                                        <span> 11:00 AM - 9:00 PM</span>
-                                    </li>
-                                    <li>
-                                        <p>Friday - Saturday </p>
-                                        <span>  11:00 AM - 5:00 PM</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- end footer-box-d -->
-                        </div>
-                        <!-- end col -->
-                    </div>
-                    <!-- end footer-in-main -->
-                </div>
-                <!-- end row -->
-            </div>
-            <!-- end container -->
-            <div id="copyright" class="copyright-main">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <h6 class="copy-title"> Copyright &copy; 2017 Pet Shop is powered by <a href="#" target="_blank"></a> </h6>
-                        </div>
-                    </div>
-                    <!-- end row -->
-                </div>
-                <!-- end container -->
-            </div>
-            <!-- end copyright-main -->
-        </div>
-        <!-- end footer-box -->
-    </div>
-    <!-- end footer-main -->
-
-    <a href="#" class="scrollup" style="display: none;">Scroll</a>
-
-    <section id="color-panel" class="close-color-panel">
-        <a class="panel-button gray2"><i class="fa fa-cog fa-spin fa-2x"></i></a>
-        <!-- Colors -->
-        <div class="segment">
-            <h4 class="gray2 normal no-padding">Color Scheme</h4>
-            <a title="orange" class="switcher orange-bg"></a>
-            <a title="strong-blue" class="switcher strong-blue-bg"></a>
-            <a title="moderate-green" class="switcher moderate-green-bg"></a>
-            <a title="vivid-yellow" class="switcher vivid-yellow-bg"></a>
-        </div>
+        <img src="img/table-set.png" alt="Table Set" class="tm-table-set img-responsive">             
+      </div>      
     </section>
+    
+<!--- Coming soon ended-->      
+  
+    <div class="tm-main-section" style="background-image: url(img/bg_4.jpg);">
+      <div class="container" id="main">          
+        <section class="tm-section tm-section-margin-bottom-0 row">
+          <div class="col-lg-12 tm-section-header-container">
+            <h2 class="tm-section-header gold-text tm-handwriting-font">Our Services</h2>
+            <div class="tm-hr-container"><hr class="tm-hr"></div>
+          </div>
+          <div class="col-lg-12 tm-popular-items-container">
 
-    <!-- ALL JS FILES -->
-    <script src="js/all.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/custom.js"></script>
-</body>
+            <div class="tm-popular-item" style="opacity: 0.9">
+                <center><img src="img/bg_1.png" alt="Popular" class="tm-popular-item-img" width="250px" height="250px"></center>
+              <div class="tm-popular-item-description">
+                <h3 class="tm-handwriting-font tm-popular-item-title"><span class="tm-handwriting-font bigger-first-letter">Low<br>Oil<br>More Hygniene</span></h3><hr class="tm-popular-item-hr">
+                <div class="order-now-container">
+                  <a href="#" class="order-now-link tm-handwriting-font">Healthy Foods</a>
+                </div>
+              </div>              
+            </div>
+            <div class="tm-popular-item" style="opacity: 0.9">
+                <center><img src="img/bg_2.png" alt="Popular" class="tm-popular-item-img" width="250px" height="250px"></center>
+              <div class="tm-popular-item-description">
+                <h3 class="tm-handwriting-font tm-popular-item-title"><span class="tm-handwriting-font bigger-first-letter">Your<br>Demand<br>Our Recipe</span></h3><hr class="tm-popular-item-hr">
+                <div class="order-now-container">
+                  <a href="#" class="order-now-link tm-handwriting-font">Original Recipes</a>
+                </div>
+              </div>              
+            </div>
+          </div>          
+        </section>
+    <footer>
+      <div class="col-lg-12 tm-section-header-container">
+            <h2 class="tm-section-header gold-text tm-handwriting-font">Get Social</h2>
+            <div class="tm-hr-container"><hr class="tm-hr"></div>
+          </div>
+      <div class="tm-black-bg" style="opacity: 0.5">
+        <div class="container">
+          <div class="row margin-bottom-60">
+            <div class="col-lg-4 col-md-4 tm-footer-div" >
+              <p>Stay tuned over social media.</p>
+              <div class="tm-social-icons-container">
+                <a href="https://www.facebook.com/LazzawaaabPizza" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=917077655199" class="tm-social-icon"><i class="fa fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/lazzawaaab_pizza?r=nametag" class="tm-social-icon"><i class="fa fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>          
+        </div>  
+      </div> 
+      <div>
+        <div class="container">
+          <div class="row tm-copyright">
+           <p class="col-lg-12 small copyright-text text-center" style="color:darkgoldenrod">Copyright &copy; 2020 Lazzawaab Pizza</p>
+         </div>  
+       </div>
+     </div>
+   </footer> <!-- Footer content-->
+      
+<!--
+    <section class="tm-welcome-section">
+      <div class="container tm-position-relative">
+        <div class="tm-lights-container">
+          <img src="img/light.png" alt="Light" class="light light-1">
+          <img src="img/light.png" alt="Light" class="light light-2">
+          <img src="img/light.png" alt="Light" class="light light-3">  
+        </div>        
+        <div class="row tm-welcome-content">
+          <h2 class="white-text tm-handwriting-font tm-welcome-header"><img src="img/header-line.png" alt="Line" class="tm-header-line">&nbsp;Welcome To&nbsp;&nbsp;<img src="img/header-line.png" alt="Line" class="tm-header-line"></h2>
+          <h2 class="gold-text tm-welcome-header-2">Lazzawaab Pizza</h2>
+          <p class="gray-text tm-welcome-description">Lazzawaab Pizza template is a mobile-friendly responsive <span class="gold-text">Bootstrap v3.3.5</span> layout by <span class="gold-text">templatemo</span>. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusnec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+          <a href="#main" class="tm-more-button tm-more-button-welcome">Details</a>      
+        </div>
+        <img src="img/table-set.png" alt="Table Set" class="tm-table-set img-responsive">             
+      </div>      
+    </section>
+      
+      
+    <div class="tm-main-section light-gray-bg">
+      <div class="container" id="main">
+        <section class="tm-section row">
+          <div class="col-lg-9 col-md-9 col-sm-8">
+            <h2 class="tm-section-header gold-text tm-handwriting-font">The Best Pizza for you</h2>
+            <h2>Lazzawaab Pizza</h2>
+            <p class="tm-welcome-description">This is free HTML5 website template from <span class="blue-text">template</span><span class="green-text">mo</span>. Fndimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Ettiam sit amet orci eget eros faucibus tincidunt.</p>
+            <a href="#" class="tm-more-button margin-top-30">Read More</a> 
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-4 tm-welcome-img-container">
+            <div class="inline-block shadow-img">
+              <img src="img/1.jpg" alt="Image" class="img-circle img-thumbnail">  
+            </div>              
+          </div>            
+        </section>          
+        <section class="tm-section tm-section-margin-bottom-0 row">
+          <div class="col-lg-12 tm-section-header-container">
+            <h2 class="tm-section-header gold-text tm-handwriting-font"><img src="img/logo.png" alt="Logo" class="tm-site-logo"> Popular Items</h2>
+            <div class="tm-hr-container"><hr class="tm-hr"></div>
+          </div>
+          <div class="col-lg-12 tm-popular-items-container">
+            <div class="tm-popular-item">
+              <img src="img/popular-1.jpg" alt="Popular" class="tm-popular-item-img">
+              <div class="tm-popular-item-description">
+                <h3 class="tm-handwriting-font tm-popular-item-title"><span class="tm-handwriting-font bigger-first-letter">a</span>mericano</h3><hr class="tm-popular-item-hr">
+                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
+                <div class="order-now-container">
+                  <a href="#" class="order-now-link tm-handwriting-font">Order Now</a>
+                </div>
+              </div>              
+            </div>
+            <div class="tm-popular-item">
+              <img src="img/popular-2.jpg" alt="Popular" class="tm-popular-item-img">
+              <div class="tm-popular-item-description">
+                <h3 class="tm-handwriting-font tm-popular-item-title"><span class="tm-handwriting-font bigger-first-letter">c</span>appuccino</h3><hr class="tm-popular-item-hr">
+                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
+                <div class="order-now-container">
+                  <a href="#" class="order-now-link tm-handwriting-font">Order Now</a>
+                </div>
+              </div>              
+            </div>
+            <div class="tm-popular-item">
+              <img src="img/popular-3.jpg" alt="Popular" class="tm-popular-item-img">
+              <div class="tm-popular-item-description">
+                <h3 class="tm-handwriting-font tm-popular-item-title"><span class="tm-handwriting-font bigger-first-letter">m</span>ocha</h3><hr class="tm-popular-item-hr">
+                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. sed ipsum.</p>
+                <div class="order-now-container">
+                  <a href="#" class="order-now-link tm-handwriting-font">Order Now</a>
+                </div>
+              </div>              
+            </div>
+          </div>          
+        </section>
+        <section class="tm-section row">
+          <div class="col-lg-12 tm-section-header-container">
+            <h2 class="tm-section-header gold-text tm-handwriting-font"><img src="img/logo.png" alt="Logo" class="tm-site-logo"> Today's Special</h2>
+            <div class="tm-hr-container"><hr class="tm-hr"></div>
+          </div>          
+          <div class="col-lg-12 tm-special-container margin-top-60">
+            <div class="tm-special-container-left"> <!-- left -->
+      <!--
+              <div class="tm-special-item">
+                <div class="tm-special-img-container">
+                  <img src="img/special-1.jpg" alt="Special" class="tm-special-img img-responsive">  
+                  <a href="#">
+                    <div class="tm-special-description">
+                      <h3 class="tm-special-title">Donec pede justo</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>  
+                    </div>            
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tm-special-container-right"> <!-- right -->
+      <!--
+              <div>
+                <div class="tm-special-item">
+                  <div class="tm-special-img-container">
+                    <img src="img/special-2.jpg" alt="Special" class="img-responsive">  
+                    <a href="#">
+                      <div class="tm-special-description">
+                        <h3 class="tm-special-title">Etiam sit amet</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>  
+              </div>
+              <div class="tm-special-container-lower">
+                <div class="tm-special-item">
+                  <div class="tm-special-img-container">
+                    <img src="img/special-3.jpg" alt="Special" class="img-responsive">  
+                    <a href="#">
+                      <div class="tm-special-description">
+                        <p>Vivamus elementum</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="tm-special-item">
+                  <div class="tm-special-img-container">
+                    <img src="img/special-4.jpg" alt="Special" class="img-responsive">  
+                    <a href="#">
+                      <div class="tm-special-description">
+                        <p>Quisque rutrum.</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>  
+              </div>              
+            </div>
+          </div>
+        </section>
+        <section class="tm-section">
+          <div class="row">
+            <div class="col-lg-12 tm-section-header-container">
+              <h2 class="tm-section-header gold-text tm-handwriting-font"><img src="img/logo.png" alt="Logo" class="tm-site-logo"> Daily Menu</h2> 
+              <div class="tm-hr-container"><hr class="tm-hr"></div> 
+            </div>  
+          </div>          
+          <div class="row">
+            <div class="tm-daily-menu-container margin-top-60">
+              <div class="col-lg-4 col-md-4">
+                <img src="img/menu-board.png" alt="Menu board" class="tm-daily-menu-img">      
+              </div>            
+              <div class="col-lg-8 col-md-8">
+                <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
+                <ol class="margin-top-30">
+                  <li>Tellus eget condimentum rhoncus.</li> 
+                  <li>Sem quam semper libero.</li>
+                  <li>Sit amet adipiscing sem neque sed ipsum.</li> 
+                  <li>Nam quam nunc, blandit vel, luctus pulvinar.</li> 
+                  <li>Maecenas nec odio et ante tincidunt tempus.</li> 
+                  <li>Donec vitae sapien ut libero ventenatis faucibus.</li> 
+                </ol>
+                <a href="#" class="tm-more-button margin-top-30">Read More</a>    
+              </div>
+            </div>
+          </div>          
+        </section>-->
+      </div>
+    </div> 
+<!-- for future webpage-------->
+<!--
+    <footer>
+      <div class="tm-black-bg">
+        <div class="container">
+          <div class="row margin-bottom-60">
+            <nav class="col-lg-3 col-md-3 tm-footer-nav tm-footer-div">
+              <h3 class="tm-footer-div-title">Main Menu</h3>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Our Services</a></li>
+              </ul>
+            </nav>
+            <div class="col-lg-5 col-md-5 tm-footer-div">
+              <h3 class="tm-footer-div-title">About Us</h3>
+              <p class="margin-top-15">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+              <p class="margin-top-15">Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+            </div>
+            <div class="col-lg-4 col-md-4 tm-footer-div">
+              <h3 class="tm-footer-div-title">Get Social</h3>
+              <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante.</p>
+              <div class="tm-social-icons-container">
+                <a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="tm-social-icon"><i class="fa fa-linkedin"></i></a>
+                <a href="#" class="tm-social-icon"><i class="fa fa-youtube"></i></a>
+                <a href="#" class="tm-social-icon"><i class="fa fa-behance"></i></a>
+              </div>
+            </div>
+          </div>          
+        </div>  
+      </div> 
+      <div>
+        <div class="container">
+          <div class="row tm-copyright">
+           <p class="col-lg-12 small copyright-text text-center">Copyright &copy; 2084 Your Lazzawaab Pizza</p>
+         </div>  
+       </div>
+     </div>
+   </footer> <!-- Footer content-->
 
-</html>
+   <!-- JS -->
+   <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
+   <script type="text/javascript" src="js/templatemo-script.js"></script>      <!-- Templatemo Script -->
+
+ </body>
+ </html>
